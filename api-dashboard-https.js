@@ -20,7 +20,7 @@ var trustProxy = true;
 var dashboard = new ParseDashboard({
   "apps": [{
     // ip local after wallboardapi
-    "serverURL": 'https://192.168.56.1:' + apiport + '/api',
+    "serverURL": 'https://10.21.43.203:' + apiport + '/api',
     "appId": 'wallboardapi',
     "masterKey": 'wallboardapi',
     "appName": 'wallboardapi',
